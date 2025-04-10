@@ -52,8 +52,33 @@ public abstract class Enum : ValueType
 {
 }
 
+public struct RuntimeTypeHandle
+{
+}
+
+public abstract class Type
+{
+    public bool IsPrimitive { get => default; }
+    public bool IsEnum { get => default; }
+    public static Type? GetTypeFromHandle(RuntimeTypeHandle handle) => default;
+}
+
+public abstract class Array
+{
+    public static void Clear(Array array, int index, int length) { }
+}
+
 public class Exception
 {
+}
+
+public class NullReferenceException : Exception
+{
+}
+
+public class ArgumentOutOfRangeException : Exception
+{
+    public ArgumentOutOfRangeException(string? paramName, string? message) { }
 }
 
 public sealed class String
