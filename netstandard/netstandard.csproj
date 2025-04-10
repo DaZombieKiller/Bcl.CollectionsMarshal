@@ -1,6 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <LangVersion>11</LangVersion>
+    <Nullable>enable</Nullable>
+    <LangVersion>13</LangVersion>
+    <NoWarn>CS8618</NoWarn>
     <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
 
     <!-- Disable default references -->
