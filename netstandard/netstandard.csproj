@@ -4,6 +4,7 @@
     <LangVersion>13</LangVersion>
     <NoWarn>CS8618</NoWarn>
     <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <RuntimeMetadataVersion>v4.0.30319</RuntimeMetadataVersion>
 
     <!-- Disable default references -->
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
