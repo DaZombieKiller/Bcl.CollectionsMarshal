@@ -1,0 +1,4 @@
+<Solution>
+  <Project DefaultStartup="true" Path="Bcl.CollectionsMarshal/Bcl.CollectionsMarshal.csproj" />
+  <Project Path="netstandard/netstandard.csproj" />
+</Solution>
